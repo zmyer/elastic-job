@@ -34,22 +34,22 @@ public class JobConfiguration {
     /**
      * 作业名称.
      */
-    private final String jobName;
+    private String jobName;
     
     /**
      * 作业实现类名称.
      */
-    private final Class<? extends ElasticJob> jobClass;
+    private Class<? extends ElasticJob> jobClass;
     
     /**
      * 作业分片总数.
      */
-    private final int shardingTotalCount;
+    private int shardingTotalCount;
     
     /**
      * 作业启动时间的cron表达式.
      */
-    private final String cron;
+    private String cron;
     
     /**
      * 分片序列号和个性化参数对照表.
