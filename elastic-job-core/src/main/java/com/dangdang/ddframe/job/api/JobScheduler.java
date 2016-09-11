@@ -249,4 +249,11 @@ public class JobScheduler {
     public void setField(final String fieldName, final Object fieldValue) {
         jobDetail.getJobDataMap().put(fieldName, fieldValue);
     }
+
+    /**
+     * @author zhouwei
+     *
+     * this is starting time
+     */
+
 }
